@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+body {
+    background: #1976D2;
+}
+
+header h1 {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font: bold 30px sant-serif;
+}
+
+header,
+section,
+footer,
+aside,
+article,
+nav,
+hgroup {
+    display: block;
+}
+
+.container {
+    background: #FFF;
+    width: 960px;
+    margin: auto;
+}
+
+header {
+    background: #2196F3;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: left;
+}
+
+nav {
+    background: #BBDEFB;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+ul li {
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+    font: bold 20px verdana;
+}
+
+nav ul li:hover {
+    color: #000;
+}
+
+section {
+    width: 69%;
+    float: left;
+    border-right: 5px solid black;
+}
+
+article {
+    background: #FFF;
+    padding: 20px;
+}
+
+section article h1 {
+    font-size: 30px;
+    color: #212121;
+}
+
+section article h2 {
+    font-size: 18px;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+section article p {
+    font-size: 15px;
+    color: #757575;
+}
+
+article div {
+    text-align: right;
+    margin-top: 25px;
+}
+
+article div h3 {
+    color: #212121;
+}
+
+article div p {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+aside {
+    width: 30%;
+    float: right;
+}
+
+button {
+    color: white;
+    background: #1976D2;
+    padding: 5% 20px;
+    width: 100%;
+    font-size: 20px;
+}
+
+aside blockquote button:hover {
+    color: #000;
+}
+
+footer {
+    clear: both;
+    padding: 20px;
+    background: #1976D2;
+}
+
+
+/*
+#c4d8fc 
+#b7cbd8 
+#b9f0db 
+#afe8ef 
+#b2edf0 
+#bbd4e1 
+#b0ecd9
+*/
